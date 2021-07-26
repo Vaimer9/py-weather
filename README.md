@@ -15,5 +15,15 @@ Once done you can print out the values of my_data to see how the values are stru
 
 # FAQ
 1. What values does the `getWeather()` method return  
-ans. It returns in the following manner `[current_temperature, current_pressure, current_humidity, weather_description]`
+ans. It returns in the following manner:
+```
+info = {
+        "temprature": current_temperature,
+        "pressure": current_pressure,
+        "humidity": current_humidity,
+        "description": weather_description,
+        "wind_speed": wind_speed,
+        "wind_direction": wind_direction
+}
+```
  
